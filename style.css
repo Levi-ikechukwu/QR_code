@@ -1,7 +1,7 @@
 body{
     padding: 0%;
     box-sizing: border-box;
-    background-color: rgb(193, 211, 208);
+    background-color: hsl(217, 76%, 92%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,13 +82,13 @@ p{
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 60vh;
+        min-height: 90vh;
     }
     
 
     #container{
      background-color: white;
-    width: 30%;
+    width: 35%;
     border-radius: 10px; 
     display: flex;
     flex-wrap: wrap;
@@ -112,7 +112,13 @@ p{
 
 @media (max-width: 656px)
 {
-
+    body
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 90vh;
+    }
 
     #container{
      background-color: white;
